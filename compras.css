@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.order-container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    margin: 5px 0;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+}
+
+.order-table tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.order-table tfoot td {
+    border-top: 2px solid #333;
+}
+
+.order-table tfoot td:first-child {
+    text-align: right;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.resumen-orden {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las secciones */
+.cliente,
+.detalle-orden {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de detalles */
+.tabla-detalle {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-detalle th,
+.tabla-detalle td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para los encabezados de tabla */
+.tabla-detalle th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Estilos para el total de la orden */
+.detalle-orden p {
+    font-weight: bold;
+}
+
+/* Estilos para los títulos de sección */
+h1,
+h2 {
+    color: #333;
+}
+.select-plazos{
+    border-radius: 5px;
+    padding: 5px;
+}
+.compras{
+position: relative
+}
+.buttonCompras{
+position: absolute;
+bottom:  10px;
+right: 0;
+left: 30px;
+width: 90%;
+}
